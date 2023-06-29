@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    background: hsla(30, 38%, 92%,1);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    height: 500px;
+    width: 700px;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    border-radius: 10px 10px;
+    height: 500px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0.4, 0, 0.01) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    background: white;
+}
+
+.perfume {
+    margin: 25px;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfume-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 0 20px;
+    border-radius: 10px;
+}
+
+.white {
+    flex: 1;
+    height: 500px;
+    width: 650px;
+}
+
+
+.title {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 7px;
+    margin: 20px 0px;
+}
+
+h1 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2.3rem;
+    margin: 30px 0;
+}
+
+.paragraph {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+.price{
+    display: flex;
+    font-size: 25px;
+    font-family: 'Fraunces', sans-serif;
+    color:  hsla(158, 36%, 37%,1);
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    gap: 20px;
+}
+
+.price span {
+    font-size: 14px;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: #242424;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    font-weight: 500;
+}
+
+.cart {
+    border-radius: 12px;
+    margin: 0;
+    background: hsla(158, 36%, 37%,1);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-style: bold;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 300px;
+    color: white;
+    border: 0;
+    gap: 15px;
+    padding: 0;
+}
+
+.cart:hover {
+    background: rgba(1, 53, 34,1);
+    cursor: pointer;
+}
+
